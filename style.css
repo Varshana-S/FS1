@@ -1,0 +1,73 @@
+
+.line {
+    background-color: rgb(211, 36, 36);
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+p:hover {
+    background-color: blue;
+    color: white;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin-top: 20px;
+}
+
+
+
+table, th, td {
+  border:1px solid black;
+}
+
+
+.link-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.link-button:hover {
+    background-color: darkorange;
+}
+
+.fixed{
+  position: fixed;
+  top: 20px;
+  left: 30px;
+}
+
+
+page{
+    height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.page {
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
