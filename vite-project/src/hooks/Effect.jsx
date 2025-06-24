@@ -8,7 +8,7 @@ const Effect = () => {
      //console.log("from useEffect");
     //},[count])
     useEffect(()=>{
-      fetch('https://jsonplaceholder.typicode.com/users')
+      fetch('http://localhost:3000/get')
       .then((res)=>res.json())
       .then((data)=>setUsers(data))
     },[])
